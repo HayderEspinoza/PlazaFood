@@ -42,7 +42,7 @@ export const Login = () => {
               onBlur={onBlur}
               onChangeText={onChange}
               value={value}
-              errorMessage={errors?.identification?.message}
+              errorMessage={errors?.identification?.message?.toString()}
               placeholder={t('fields.identification')}
               iconLeft={
                 <IconStyled name="user" size={20} color={theme.input.primary} />
@@ -59,7 +59,7 @@ export const Login = () => {
               onBlur={onBlur}
               onChangeText={onChange}
               value={value}
-              errorMessage={errors?.password?.message}
+              errorMessage={errors?.password?.message?.toString()}
               placeholder={t('fields.password')}
               iconLeft={
                 <IconStyled name="lock" size={20} color={theme.input.primary} />

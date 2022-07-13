@@ -4,4 +4,5 @@ export const PrivateRoutes = {
 
 export const PublicRoutes = {
   Login: 'Login',
+  Authentication: 'Authentication',
 };

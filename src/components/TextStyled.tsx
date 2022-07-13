@@ -26,5 +26,5 @@ export const TextStyled = styled.Text<Props>`
   font-size: ${({ size, theme }) => getSize(size, theme)};
   font-family: ${({ family, theme }) =>
     family ? Fonts[family] : theme.fonts.regular};
-  color: ${({ color, theme }) => color || theme.common.wildBlueYonder};
+  color: ${({ color, theme }) => color || theme.common.white};
 `;

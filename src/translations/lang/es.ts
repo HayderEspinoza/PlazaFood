@@ -1,4 +1,13 @@
 export default {
+  authentication: {
+    facebook: 'Continua con Facebook',
+    google: 'Continua con Google',
+    signIn: 'Iniciar sesión',
+    signUp: {
+      uno: 'Aun no tienes cuenta? ',
+      dos: 'Registrate',
+    },
+  },
   fields: {
     identification: 'Identificación',
     password: 'Contraseña',

@@ -8,9 +8,13 @@ interface IPalette {
 declare module 'styled-components' {
   export interface DefaultTheme {
     common: {
+      white: string;
+      black: string;
       wildBlueYonder: string;
       link: string;
       activeBtn: string;
+      facebook: string;
+      elm: string;
     };
     input: {
       primary: string;

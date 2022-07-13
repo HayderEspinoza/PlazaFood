@@ -4,11 +4,12 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Feather.ttf</string>
 		<string>RedHatDisplay-Bold.ttf</string>
 		<string>RedHatDisplay-Regular.ttf</string>
 		<string>RedHatDisplay-SemiBold.ttf</string>
-		<string>RedHatDisplay-Bold.ttf</string>
+		<string>RedHatDisplay-Medium.ttf</string>
+		<string>Feather.ttf</string>
+		<string>Entypo.ttf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
