@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import { heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 type Props = {
   color?: string;
@@ -8,7 +9,7 @@ type Props = {
 
 export const ButtonStyled = styled.TouchableOpacity<Props>`
   background: ${({ theme, color }) => color || theme.common.activeBtn};
-  height: 50px;
+  height: ${hp('7%') + 'px'};
   flex-direction: row;
   border-radius: 6px;
   align-items: center;

@@ -7,7 +7,7 @@ export const FacebookIcon = styled(Entypo)`
 `;
 
 export const LogoContainer = styled.View`
-  padding: 150px 0;
+  padding: 100px 0;
   align-items: center;
   justify-content: center;
 `;
@@ -31,11 +31,11 @@ export const Separator = styled.View`
   flex: 1;
   height: 1px;
   background-color: #e8ebf0;
-  margin: 40px 0;
+  margin: 35px 0;
 `;
 
 export const SignUpContainer = styled.TouchableOpacity`
   flex: 1;
-  margin: 40px 0;
+  margin: 35px 0;
   align-items: center;
 `;

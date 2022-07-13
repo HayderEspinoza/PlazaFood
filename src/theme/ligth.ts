@@ -7,7 +7,7 @@ export const Light: DefaultTheme = {
     wildBlueYonder: '#738BAE',
     link: '#4786FF',
     activeBtn: '#FFD41D',
-    facebook: '#1a77f2', //3A5A98
+    facebook: '#3A5A98', //1a77f2
     elm: '#1B8C71',
   },
   input: {

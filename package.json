@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "gradlew-clean": "cd android && ./gradlew clean && cd .."
   },
   "dependencies": {
     "@hookform/resolvers": "^2.9.5",
@@ -19,6 +20,7 @@
     "react-hook-form": "^7.33.1",
     "react-i18next": "^11.18.0",
     "react-native": "0.69.1",
+    "react-native-responsive-screen": "^1.4.2",
     "react-native-safe-area-context": "^4.3.1",
     "react-native-screens": "^3.15.0",
     "react-native-vector-icons": "^9.2.0",
